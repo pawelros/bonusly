@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 urllib3 = "*"
+python-dotenv = "*"
+black = "*"
 
 [dev-packages]
 
