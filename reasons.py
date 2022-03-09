@@ -5,7 +5,7 @@ class Reasons:
         reasons = [
             'Great presentation about CI/CD today!',
             'For being always ready to investigate infrastructure mysteries',
-            'For being always ready to investigate infrastructure mysteries',
+            'Your careful code reviews are always very useful for the team!',
             'For all your work on stack manager.',
             'Nice work on the pulumi code changes! Looking forward to seeing this leveraged in our environment.',
             'thx for all your support!!',
