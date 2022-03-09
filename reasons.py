@@ -30,6 +30,4 @@ class Reasons:
             'Thank you for helping to identify this nasty bug!'
         ]
 
-        index = random.randrange(0, len(reasons))
-
-        return reasons[index]
+        return random.choice(reasons)
