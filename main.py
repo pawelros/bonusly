@@ -97,9 +97,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     random_step = args.round or 1
-    amount = args.amount or random.randrange(random_step, args.max, random_step)
+    if not args.amount and random_step == 1 and args.max and args.max == 1:
+        amount = 1
+    else:
+        amount = args.amount or random.randrange(random_step, args.max, random_step)
     hashtag = args.hashtag or random_hashtag()
-    
+
     reason = args.reason
     if reason == "random":
         reason = Reasons.random()
