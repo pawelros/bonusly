@@ -14,4 +14,4 @@ Bonusly HTTP Client with a bunch of features
 If you want to bonus your friends at regular basis:
 1. pwd your project directory to get an absolute path to it
 2. crontab -e
-3. `00 14 * * 1-5 cd /Users/pawel/x/bonusly && .venv/bin/python3 main.py --to "friend@example.com" --max 10 --round 5 &> /Users/pawel/x/bonusly/bonusly.log`
+3. `00 14 * * 1-5 cd {project_path} && .venv/bin/python3 main.py --to "friend@example.com" --max 10 --round 5 &> {project_path}/bonusly.log`
